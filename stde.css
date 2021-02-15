@@ -1,0 +1,273 @@
+#side
+{
+    
+    background-color: black;
+    color:white;
+    position:absolute;
+    padding-left: 0px;
+    margin-left: 0px;
+    height: 1000px;
+    width: 200px;    
+    overflow-x: hidden;
+    z-index: 1;
+}
+#side .active
+{background-color: green;
+}
+ #h
+{
+width: 100%;
+border: 3px solid black;
+height: 10%;
+   padding: 0px;
+    margin-left: 0px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+
+#h h2
+{
+    width: 100%;
+height: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+#img
+{
+float: left;
+    padding-left: 30px;
+height: 110px;
+    width: 10%;
+    padding-top: 10px;
+}
+ #e
+{margin: 4px;
+ float: right;
+   padding: 20px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+   
+    font-size: 20px;
+}
+
+
+.dropdown-btn:active
+{
+background-color: green;}
+.dropdown-bt:active
+{
+background-color: green;}
+.dropdown-btn
+{
+   width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-family:inherit;
+  
+}
+.dropdown-bt
+{
+   width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-family:inherit;
+  
+}
+.active {
+  background-color: green;
+  color: white;
+}
+.dropdown-btn:hover
+{
+    cursor: pointer;
+color: lavender;
+    background-color: grey;
+}
+.dropdown-bt:hover
+{
+    cursor: pointer;
+color: lavender;
+    background-color: grey;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.dropdown-container a{
+ display: block;
+  background-color: #262626;
+    color: white;
+    font-family:serif;
+   
+  padding-left: 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dropdown-containe
+{
+    display: block;
+}
+.dropdown-containe a{
+ 
+  background-color: #262626;
+    color: white;
+    font-family:serif;
+   
+  padding-left: 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+#side a
+{display: block;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    font-variant-caps: all-petite-caps;
+    font-family:sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+cursor: pointer;
+color: lavender;
+    background-color: grey;
+    
+}
+#side a.active
+{
+    background-color: green;
+}
+        #h
+{
+width: 100%;
+border: 3px solid black;
+height: 100%;
+    padding: 3px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-style: calibri;
+        }
+h2
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: darkviolet;
+    
+}
+.details
+{border: 2px solid red;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 220px;
+    height: 1000px;
+    
+    text-align: center;
+}
+.ii
+{
+    border: 1px solid black;
+    background: grey;
+}
+.pf
+{height: 200px;
+    width:200px;
+    float: right;
+
+}
+.inf
+{padding: 20px;
+    
+color:brown;
+    height: 400px;
+    border: 2px solid black;
+    width: 50%;
+    text-align: left;
+    
+}
+#ppp
+{
+border: 1px solid black;
+}
+.show {display:block;}
+
+label
+{padding: 2px;
+    padding-bottom: 10px;
+    font-family:inherit;
+    font-size: 19px;
+    
+}
+input
+{
+    margin-bottom: 5px;
+    padding: 3px;
+    align-self: center;
+    text-align: center;
+    margin-left: 30px;
+  
+}
+.re
+{
+    text-align: left;
+    float: left;
+    margin-left: 300px;
+    
+    width: 100%;
+    height: 20%;
+}
+.tab
+{
+    text-align: center;
+    
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+tr
+{padding: 2px;
+border: 1px solid grey;}
+td
+{padding: 2px;
+border: 1px solid grey;}
+th
+{padding: 2px;
+    border: 1px solid grey;
+}
+.g
+{
+float:left;
+padding: 3px;}
+#bee input
+{
+    float: left;
+}

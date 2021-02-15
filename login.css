@@ -1,0 +1,156 @@
+#h
+{
+width: 100%;
+border: 3px solid black;
+height: 10%;
+   padding: 0px;
+    margin-left: 10px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+#btn
+{margin-left: 90px;
+    align-content: center;
+}
+#h h2
+{
+    width: 100%;
+height: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+#img
+{
+float: left;
+    padding-left: 30px;
+height: 110px;
+    width: 10%;
+    padding-top: 10px;
+}
+#end
+{
+    margin-top: 320px;
+}
+  
+
+#form
+{
+display: inline;
+    padding-top: 5px;
+   
+}
+#f
+{border: 5px solid black;
+   width: 20%;
+    height:200PX ;
+    text-align: center;
+    display: block;
+    padding: 20px 10px 20px 10px;
+    margin-left: 340px;
+    background-color: lightgray;
+    color: fuchsia;
+}
+.sss{
+ padding-top: 1px;
+    text-align: center;
+    font-family:monospace;
+    font-size:40px;
+    text-shadow: 2px 2px orange;
+}
+body
+{
+margin: 10px;
+
+
+background-image:url(images/login.jpg.jpg);
+    background-size:cover;}
+footer
+{
+   float: left;
+    padding-bottom: 10px;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+}
+#aaa
+{
+    float: right;
+    color: firebrick;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+}
+#a
+{
+    text-align: center;
+   margin-left: 60px;
+    color: darkgreen;
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+#aa
+{
+    text-align: right;
+    float: right;
+font-family: cursive;
+    font-size: 18px;
+    color: darkgreen;
+    text-decoration: none;
+    
+}
+#a:hover,#aa:hover
+{
+    color: orange;
+}
+
+a:hover
+{
+    color: darkgreen;
+} 
+a:active
+{
+    color: black;
+}
+p
+{
+text-align: center;
+font-family: cursive;
+    font-size: 20px;
+color:green;}
+
+#q
+{
+    float:right;
+    color:brown;
+    
+}
+.loginbox{
+width:320px;
+height:320px;
+border: 3px solid black;
+color:brown;
+top:70%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+.avatar{
+    margin-top: 10px;
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+}

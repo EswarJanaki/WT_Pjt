@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+<title>Contact Web</title>
+</head>
+    <style>
+        label
+        {
+            color: forestgreen;
+            font-family: cursive;
+            padding: 5px;
+        }
+ #h
+{
+width: 100%;
+border: 3px solid black;
+height: 10%;
+   padding: 0px;
+    margin-left: 0px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+
+#h h2
+{
+    width: 100%;
+height: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+#img
+{
+float: left;
+    padding-left: 30px;
+height: 110px;
+    width: 10%;
+    padding-top: 10px;
+}
+    #aa
+        {
+            background-color: lightgray;
+        }
+    
+    </style>
+<body>
+     <div id="h">
+             <img id="img" src="images/logo.png" >
+    <h1>NATIONAL INSTITUE OF TECHNOLOGY </h1>
+    <h2 >TADEPALLIGUDEM, ANDHRA PRADESH</h2>
+    </div>
+    
+    <div id="aa">
+        <h2 style="color: crimson">Contact Web</h2>   
+        <label for="userid">User id  : </label>
+    <input id="u" type="text" name="userid" placeholder="User id"><br><br>
+    <label for="email">Institue mail  : </label>
+    <input id="y" type='email' name="email" placeholder="Institue mail"><br><br>
+<label for="text">Enter Your problem here : </label>
+        <textarea id="p"  placholder="enter your problem here" name="text" width="700px" height="700px"></textarea><br><br>
+<button id="n"  onclick="va()">Send </button>
+            </div>
+</body>
+    <script>
+    function va(){
+        
+      var w = document.getElementById("u").value;
+    var regx = /^411\d{3}$/;
+    if (regx.test(w)) {
+  
+
+            
+          }
+    else{
+        
+        alert("wrong username");
+        return false;
+        }  
+        
+    var a=document.getElementById("y").value;
+    var reg=/^411\d{3}@student.nitandhra.ac.in$/;
+    if (reg.test(a)) {
+  
+document.getElementById("aa").innerHTML="Response is recorded";
+ document.getElementById("aa").style.color="green";    
+   document.getElementById("aa").style.fontSize="26px";       
+            return true;
+          }
+    else{
+        
+        alert("wrong mail");
+        return false;
+        }
+    }
+    
+    
+    </script>
+</html>

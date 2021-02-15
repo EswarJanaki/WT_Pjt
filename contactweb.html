@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+<title>Password Reset</title>
+</head>
+    <style>
+    p
+        {
+            color:chocolate;
+            font-family: sans-serif;
+        }
+#h
+{
+width: 100%;
+border: 3px solid black;
+height: 10%;
+   padding: 0px;
+    margin-left: 0px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+
+#h h2
+{
+    width: 100%;
+height: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color:skyblue;
+    color:crimson;
+    font-family: calibri;
+    
+}
+#img
+{
+float: left;
+    padding-left: 30px;
+height: 110px;
+    width: 10%;
+    padding-top: 10px;
+}
+        #s
+        { padding:10px;
+            background-color: lightgrey;
+        }
+        
+    
+    </style>
+<body >
+  <div id="h">
+             <img id="img" src="images/logo.png" >
+    <h1>NATIONAL INSTITUE OF TECHNOLOGY </h1>
+    <h2 >TADEPALLIGUDEM, ANDHRA PRADESH</h2>
+    </div>
+<div id="s">
+    <p>Please enter Institue Mail to get a link to Your mail</p>
+    <p>Click on that to reset password</p>
+    <label for="email" style="font font-weight: bold;color:brown">Institue mail  : </label>
+    <input id="u" type='email' name="email" placeholder="Institue mail"><br><br>
+    <button id="n" onclick="va()">Send </button>
+    
+    
+    
+    
+    </div>
+<script>
+    function va(){
+    var a=document.getElementById("u").value;
+    var regx=/^411\d{3}@nitandhra.ac.in$/;
+    if (regx.test(a)) {
+  
+document.getElementById("s").innerHTML="A LINK IS SENT TO GIVEN EMAIL";
+            return true;
+          }
+    else{
+        
+        alert("wrong mail");
+        return false;
+        }
+    }
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+<title>Student details</title>
+    <link rel="stylesheet" href="stde.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=jquery.js></script>
+</head>
+<body>
+  <div id="h">
+             <img id="img" src="images/logo.png" >
+    <h1>NATIONAL INSTITUE OF TECHNOLOGY </h1>
+    <h2 >TADEPALLIGUDEM, ANDHRA PRADESH</h2>
+    </div>
+     <a id="e" href="Login.html">Log Out</a>
+  
+<div id="side">
+    
+        
+    <a   href="home.html">home</a>
+   <button class="dropdown-btn">Profile
+    <i class="fa fa-caret-down"></i>
+  </button>
+   <div class="dropdown-container">
+    <a href="stde.html" class="active">Student details</a>
+    <a href="personal.html">Personal details</a>
+    <a href="Login.html">Address</a>
+  </div>
+     <button  class="dropdown-bt" onclick="fun()">Academics
+    <i class="fa fa-caret-down"></i>
+  </button>
+   <div class="dropdown-containe">
+    <a href="result.html">Results</a>
+    <a href="fee.html">Fee payment</a>
+    <a href="Login.html">Address</a>
+  </div>
+    
+        </div>
+<div class="details">
+    <h2>Student Details</h2>
+   <div class="pf">
+    <img id="ppp" src="images/profile.jpg" value="image" height=150px width="150px">
+       <p>T Krishna Madhav</p>
+    </div>
+   <div class="inf">
+
+
+  <label for="name">Name of Student:</label>  <input align="center" type="text" value="T KRISHNA MADHAV" name="name" readonly><br>
+   <label for="rollno">Roll no:</label>   <input align="center" type="number" value=411986 name="rollno" readonly><br>
+       <label for="regno">Reg no:</label> <input align="center" type="number" value=991157 name="regno" readonly><br>
+       <label for="instmail">Institute Mail:</label><input type="email" value="mail" size="20" name="instmail" readonly><br>
+        <label for="branch">Department:</label> <input type="text" value="Computer Science" name="branch" readonly><br>
+        <label for="regno">Reg no:</label> <input type="number" value=991157 name="regno" readonly><br>
+        <label for="date">Date of Birth:</label> <input type="date" value="2017-08-08" name="date" readonly><br>
+           <label for="gender">Gender:</label> <input type="text" value="Male" name="gender" readonly><br>
+    </div>
+    
+    </div>
+
+</body>
+    <script src="stde.js"></script>
+    <script>
+        
+        
+    function fun()
+        {
+            var id=document.getElementsByClassName("dropdown-containe");
+            id.classList.toggle("show");
+        }
+    
+    </script>
+    
+</html>

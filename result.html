@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+<title>Student Result</title>
+    <link rel="stylesheet" href="stde.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=jquery.js></script>
+</head>
+<body>
+  <div id="h">
+             <img id="img" src="images/logo.png" >
+    <h1>NATIONAL INSTITUE OF TECHNOLOGY </h1>
+    <h2 >TADEPALLIGUDEM, ANDHRA PRADESH</h2>
+    </div>
+     <a id="e" href="Login.html">Log Out</a>
+  
+<div id="side">
+    
+        
+    <a   href="home.html">home</a>
+   <button class="dropdown-btn">Profile
+    <i class="fa fa-caret-down"></i>
+  </button>
+   <div class="dropdown-container">
+    <a href="stde.html" >Student details</a>
+    <a href="personal.html">Personal details</a>
+    <a href="Login.html">Address</a>
+  </div>
+     <button  class="dropdown-bt" onclick="fun()">Academics
+    <i class="fa fa-caret-down"></i>
+  </button>
+   <div class="dropdown-containe">
+    <a href="result.html" class="active">Results</a>
+    <a href="fee.html">Fee payment</a>
+    <a href="Login.html">Address</a>
+  </div>
+    
+        </div>
+ <div class="re">  
+    <label for="Semester">Semester:</label>
+  <select onchange="javascript:location.href = this.value;" name="Semester" id="Semester">
+      
+  <option value="result.html"  selected>Semester 1</option>
+   <option id="sem2" value="sem2.html" >Semester 2</option>
+ <option value="n.html">Semester 3</option>
+      <option value="n.html">Semester 4</option>
+      <option value="n.html">Semester 5</option>
+      <option value="n.html">Semester 6</option>
+      <option value="n.html">Semester 7</option>
+      <option value="n.html">Semester 8</option>
+      
+ 
+</select><br><br>
+<label for="Roll Number">Roll Number:</label> <input type=number value=411986 readonly>
+<br/><br/>
+    </div>
+    <div class="tab" id="bee">
+    <table>
+    <tr> 
+            <th>Subject Code</th> 
+<th>Subject Name</th> 
+<th>Subject Credit</th>
+<th>Grade</th>
+        </tr> 
+ <tr> 
+ <td>Physics</td>           
+<td>PH101</td>
+<td>3</td>
+     <td>EX</td>
+        
+        </tr>
+    <tr> 
+ <td>English</td>           
+<td>EN101</td>
+<td>2</td>
+     <td>A</td>
+        
+        </tr>
+           <tr> 
+ <td>MATHS</td>           
+<td>MA101</td>
+<td>3</td>
+     <td>A</td>
+        
+        </tr>
+           <tr> 
+ <td>ENGINEERING GRAPHICS</td>           
+<td>ME102</td>
+<td>2</td>
+     <td>EX</td>
+        
+        </tr>
+        
+           <tr> 
+ <td>CHEMISTRY</td>           
+<td>EC101</td>
+<td>3</td>
+     <td>EX</td>
+        
+        </tr>
+    </table> 
+        <br><br>
+        <label for="sgpa" class="g"><b>SEMESTER GRADE POINT AVERAGE SGPA :</b></label><input value="8.8" name="sgpa" readonly><br><br>
+         <label for="cgpa" class="g"><b>CUMMULATIVE GRADE POINT AVERAGE CGPA :</b></label><input value="8.1" name="cgpa" readonly>
+    <br> 
+    <br> <br><br>
+<table>
+        
+        <thead>
+<th>SUBJECT</th>
+<th>MINOR1</th> 
+<th>MID</th>
+<th>MINOR2</th>
+<th>END</th>
+<th>TOTAL</th>
+    </thead>
+    <tr>
+    <td>MATHS</td>
+    <td>8</td>
+    <td>25</td>
+    <td>7</td>
+    <td>40</td>
+        <td>80</td>
+    </tr>
+    
+    
+   <tr>
+    <td>Engineering graphics</td>
+    <td>7</td>
+    <td>26</td>
+    <td>6</td>
+    <td>41</td>
+        <td>80</td>
+    </tr>  
+    
+    
+    
+    
+        
+        
+        
+        
+        </table>
+    
+    
+    </div>
+    
+    
+<script src=stde.js></script>
+<script>
+    
+
+
+    
+</script>
+    </body>
+
+</html>
